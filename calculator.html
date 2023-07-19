@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> IMPORTANT CALCULATOR </title>
+        <style>
+            
+            h1,p{
+                text-align: center;
+                padding: 20px;
+                background-color: #66422D;
+                color: #D1D1D1;
+            }
+            h2{
+                text-align: center;
+            }
+            #call{
+                background-color: #B26E4B;
+                width: 460px;
+                height: 560px;
+            }
+            input{
+                font-size: x-large;
+                height: 80px;
+                width: 75px;
+                margin: 18px;
+                border: black;
+                border: 3px darkgray;
+
+            }
+            #BTS{
+                background-color: #EBD2BC;
+                width: 405px;
+                height: 60px;
+                font-weight: bolder;
+                border: black;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1><center>My Important Calculator</center></h1>
+        <p>Namaste everyone!!<br><br>
+            It is my first time when I have made my own Calculator Using HTML, CSS and JAVASCRIPT. When I was making it, I failed many times but i made it at last. So here is the moral of the story that is never give up. BELIEVE IN YOURSELF and PLEASE DON'T GIVE UP. You really don't know how much you are amazing.<br><br>
+        </p><br>
+        <h2>Calculator</h2><br>
+        <center><div id="call">
+            <form name="Clc">
+                <input type="text" name="Rudraa" id="BTS">
+                <br>
+                <input type="button" value="1" onclick="Clc.Rudraa.value+=1">
+                <input type="button" value="2" onclick="Clc.Rudraa.value+=2">
+                <input type="button" value="3" onclick="Clc.Rudraa.value+=3">
+                <input type="button" value="*" onclick="Clc.Rudraa.value+='*'">
+                <br>
+                <input type="button" value="4" onclick="Clc.Rudraa.value+=4">
+                <input type="button" value="5" onclick="Clc.Rudraa.value+=5">
+                <input type="button" value="6" onclick="Clc.Rudraa.value+=6">
+                <input type="button" value="/" onclick="Clc.Rudraa.value+='/'">
+                <br>
+                <input type="button" value="7" onclick="Clc.Rudraa.value+=7">
+                <input type="button" value="8" onclick="Clc.Rudraa.value+=8">
+                <input type="button" value="9" onclick="Clc.Rudraa.value+=9">
+                <input type="button" value="+" onclick="Clc.Rudraa.value+='+'">
+                <br>
+                <input type="button" value="=" onclick="Clc.Rudraa.value=eval(Clc.Rudraa.value)">
+                <input type="button" value="0" onclick="Clc.Rudraa.value+=0">
+                <input type="button" value="C" onclick="Clc.Rudraa.value=''">
+                <input type="button" value="-" onclick="Clc.Rudraa.value+='-'">
+
+            </form>
+
+        </div>
+    </center>
+
+    </body>
